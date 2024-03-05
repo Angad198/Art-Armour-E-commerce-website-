@@ -1,0 +1,92 @@
+<html>
+<head>
+    <meta name="viewport" content="with=device-width,initial-scale=1.0">
+    <title>Art Amour</title>
+    <link rel="stylesheet" href ="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+                <ul>
+                   <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">LIST</a></li>
+                    <li><a href="products.html">PRODUCTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+<h1>WHAT YOU CAN BUY</h1>        
+    </section>
+<!----course--->
+     <section class="course">
+        <h1>Here Is What You Can Order </h1>
+            <p>Portraits,Doodle Art Work,Scenery</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Portraits</h3>
+                    <p>You can order them</p>
+                </div>
+                <div class="course-col">
+                    <h3>Doodle Art Work</h3>
+                    <p>You can order doodle drawings also </p>
+                </div>
+                <div class="course-col">
+                    <h3>Scenery</h3>
+                    <p>You can order Any Of My Scenery <br>And CARDS</p>
+                </div>
+                            </div>
+            
+    </section>
+    
+
+ 
+<!---footer--->
+    
+    <section class="footer">
+    <h4>About Us</h4>
+        <p>Art lover makes portrait scenery etc etc</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-twitter"></i>
+        </div>
+        <p>Made By<i class="fa fa-heart-o"></i>Jachana</p>
+    </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <!----javascript------->
+    <script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+        function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+
+    </script>
+    
+    
+    
+        </body>
+</html>
